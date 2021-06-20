@@ -21,3 +21,9 @@ body{
 #head{
     text-align: center;
 }
+
+button{
+    display: block;
+    width: 85%;
+    margin: auto;
+}
