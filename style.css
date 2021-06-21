@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    background-color: rgb(32, 45, 163);
+    background-color: #344a72;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,6 +30,10 @@ margin-top: 80px;
     text-align: center;
 }
 
+label{
+    margin-top: 20px;
+}
+
 button{
     display: block;
     width: 100%;
@@ -39,6 +43,14 @@ button{
     border: none;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    margin-top: 5px;
+   width: 100%;
+   margin-bottom: 20px;
+   height: 40px;
 }
 
 .blue{
@@ -52,4 +64,10 @@ button{
 
 .white{
     color: white;
+}
+
+#end p{
+    line-height: 1.9em;
+    font-size: 14px;
+    margin-bottom: 0px;
 }
