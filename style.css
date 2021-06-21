@@ -17,6 +17,7 @@ body{
     width: 400px;
     background-color: #fff;
     padding: 20px;
+margin-top: 80px;
   
     
 }
@@ -25,8 +26,30 @@ body{
     text-align: center;
 }
 
+#end{
+    text-align: center;
+}
+
 button{
     display: block;
-    width: 85%;
+    width: 100%;
     margin: auto;
+    background-color: rgb(44, 204, 116);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.blue{
+    text-decoration: none;
+}
+
+.turq{
+    color: rgb(44, 204, 116);
+    text-decoration: none;
+}
+
+.white{
+    color: white;
 }
