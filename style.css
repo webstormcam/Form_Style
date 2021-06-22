@@ -46,11 +46,18 @@ button{
     margin-bottom: 20px;
 }
 
+button:hover{
+    background-color: darkcyan;
+}
+
 input{
     margin-top: 5px;
    width: 100%;
    margin-bottom: 20px;
    height: 40px;
+   border-radius: 5px;
+   border: 1px solid grey;
+   outline: none;
 }
 
 .blue{
